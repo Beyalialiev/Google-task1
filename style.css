@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-basis: 10%;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header a {
+    color: #000;
+    padding: 7px;
+}
+
+.header button {
+    background: #1A73E8;
+    padding: 9px 23px;
+    border-radius: 4px;
+    border: transparent;
+    color: #fff;
+    margin: 0 7px;
+}
+
+.section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.input {
+    height: 34px;
+    border: 1px solid #ddd;
+    min-width: 437px;
+    border-radius: 25px;
+    position: relative;
+}
+
+input {
+    width: 100%;
+    height: 95%;
+    outline: none;
+    border-radius: 25px;
+    border: none;
+}
+
+.input:hover{
+    box-shadow: 4px 2px 2px rgba(0, 0, 0, .2);
+}
+
+.button-groups {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.button-groups button {
+    background: #f8f9fa;
+    border: none;
+    padding: 7px 12px;
+}
+
+
+.span a {
+    color: #1A0DAB;
+}
+
+.span {
+    display: inline-block;
+    text-align: center;
+    justify-content: space-around;
+}
+ 
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.s-icon {
+position: absolute;
+top: 22%;
+left: 2%;
+opacity: .4;
+}
+
+
+.footer {
+    flex-basis: 10%;
+    display: flex;
+    color: #0e4173;
+    background: #ddd;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    font: 15px;
+    opacity: .4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h4 {
+    border-bottom: 1px solid #ddd;
+    color: #000;
+    padding: 20px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.links a {
+    color: #000;
+    padding: 7px;
+}
+
+.voice{
+    position: absolute;
+    top: 22%;
+    left: 85%;
+    outline: none;
+
+}
